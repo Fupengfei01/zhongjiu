@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/doCookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="warp c1">
+				<span class="top-link">
+                你好，欢迎来到
+                <em>中酒网!</em>
+                <a href="javascript:;">去买家中心</a>
+            </span>
+				<ul class="login-regin">
+					<li class="l-line">
+						<a href="denglu.html">请登录</a>
+					</li>
+					<li>
+						<a href="zhuce.html">免费注册</a>
+					</li>
+				</ul>
+				<ul class="quick-list">
+					<li class="sitemap dropdown">
+						<a href="javascript:;">我的中酒网<em></em></a>
+						<ul>
+							<li>
+								<a href="javascript:;">已买到的商品</a>
+							</li>
+							<li>
+								<a href="javascript:;">我关注的商品</a>
+							</li>
+							<li>
+								<a href="javascript:;">我关注的店铺</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="gouwuche.html">购物车<span>0</span>件</a>
+					</li>
+					<li class="moblie-qrcode dropdown">
+						<a href="javascript:;">微信端</a>
+						<ul class="erweima">
+							<li><img src="images/wx.jpg" /></li>
+						</ul>
+					</li>
+					<li class="app-qrcode dropdown">
+						<a href="javascript:;">APP</a>
+						<ul class="erweima">
+							<li><img src="images/mob.jpg" /></li>
+						</ul>
+					</li>
+					<li class="service dropdown">
+						<a href="javascript:;">卖家中心<em></em></a>
+						<ul>
+							<li>
+								<a href="javascript:;">商家入驻</a>
+							</li>
+							<li>
+								<a href="javascript:;">已卖出商品</a>
+							</li>
+							<li>
+								<a href="javascript:;">发布商品</a>
+							</li>
+							<li>
+								<a href="javascript:;">管理商品</a>
+							</li>
+						</ul>
+					</li>
+					<li class="service dropdown">
+						<a href="javascript:;">订购热线：400-798-9999</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header">
+			<div class="search-bar c1">
+				<div class="logo">
+					<a href="javascript:;"><img src="images/logo.png" /></a>
+				</div>
+				<div class="search">
+					<div class="search-form">
+						<label for="searchBox">商品</label>
+						<input type="text" id="searchBox" class="txt" placeholder="茅台" />
+						<input type="button" id="searchBtn" class="btn" value="搜索" />
+					</div>
+					<div class="search-hot">
+						<a href="javascript:;">五粮液</a>
+						<a href="javascript:;">汾酒</a>
+						<a href="javascript:;">剑南春</a>
+						<a href="javascript:;">泸州老窖</a>
+					</div>
+				</div>
+				<div class="head-ad">
+					<a href="javascript:;"><img src="images/head-ad.png" /></a>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav-center">
+				<div class="categorys">
+					<div class="cate">
+						<a href="javascript:;">全部商品分类</a>
+					</div>
+				</div>
+				<ul class="nav-list">
+					<li class="active">
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="list.html">天佑德专场</a>
+					</li>
+					<li>
+						<a href="list.html">白酒会场</a>
+					</li>
+					<li>
+						<a href="list.html">红酒会场</a>
+					</li>
+					<li>
+						<a href="list.html">会员中心</a>
+					</li>
+					<li>
+						<a href="list.html">重要公告</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="banner-center">
+				<div class="banner-pic">
+					<a class="active" href="detail.html"><img src="images/banner01.jpg" /></a>
+					<a href="detail.html"><img src="images/banner02.jpg" /></a>
+					<a href="detail.html"><img src="images/banner03.jpg" /></a>
+					<a href="detail.html"><img src="images/banner04.jpg" /></a>
+				</div>
+				<div class="slide-control">
+					<span class="cur">1</span>
+					<span>2</span>
+					<span>3</span>
+					<span>4</span>
+				</div>
+				<div class="small-banner">
+					<a class="active" href="detail.html"><img src="images/b-pic01.jpg" /></a>
+					<a href="detail.html"><img src="images/b-pic02.jpg" /></a>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="live-show">
+				<ul class="c1">
+					<li>
+						<a href="javascript:;"><img src="images/live-pic01.jpg" alt="" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/live-pic02.jpg" alt="" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/live-pic03.jpg" alt="" /></a>
+					</li>
+				</ul>
+			</div>
+			<div class="limited-buy">
+				<h2><span><img src="images/limit-pic02.jpg"/></span></h2>
+				<ul class="c1">
+					<li>
+						<a class="limi-img" href="javascript:;"><img src="images/limit-pic01.jpg" /></a>
+						<span class="old-p">还剩00天15小时38分57结束</span>
+						<span class="now-p">RMB <b>399.00</b></span>
+						<a class="buy-it-now" href="javascript:;">立即抢购<b></b></a>
+					</li>
+					<li>
+						<a class="limi-img" href="javascript:;"><img src="images/limit-pic03.jpg" /></a>
+						<span class="old-p">还剩00天15小时38分57结束</span>
+						<span class="now-p">RMB <b>399.00</b></span>
+						<a class="buy-it-now" href="javascript:;">立即抢购<b></b></a>
+					</li>
+					<li>
+						<a class="limi-img" href="javascript:;"><img src="images/limit-pic04.jpg" /></a>
+						<span class="old-p">还剩00天15小时38分57结束</span>
+						<span class="now-p">RMB <b>399.00</b></span>
+						<a class="buy-it-now" href="javascript:;">立即抢购<b></b></a>
+					</li>
+					<li>
+						<a class="limi-img" href="javascript:;"><img src="images/limit-pic05.jpg" /></a>
+						<span class="old-p">还剩00天15小时38分57结束</span>
+						<span class="now-p">RMB <b>399.00</b></span>
+						<a class="buy-it-now" href="javascript:;">立即抢购<b></b></a>
+					</li>
+					<li>
+						<a class="limi-img" href="javascript:;"><img src="images/limit-pic06.jpg" /></a>
+						<span class="old-p">还剩00天15小时38分57结束</span>
+						<span class="now-p">RMB <b>399.00</b></span>
+						<a class="buy-it-now" href="javascript:;">立即抢购<b></b></a>
+					</li>
+				</ul>
+			</div>
+			<div class="content_recont">
+				<h3>人气单品</h3>
+				<ul>
+					<li>
+						<a href="javascript:;"><img src="images/recont01.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont02.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont03.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont04.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont05.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont06.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont07.jpg" /></a>
+					</li>
+					<li>
+						<a href="javascript:;"><img src="images/recont08.jpg" /></a>
+					</li>
+				</ul>
+			</div>
+			<div class="floors">
+			</div>
+			<div class="brandshop">
+				<h3>品牌旗舰店</h3>
+				<div class="BD-content">
+					<div class="BD-left">
+						<a href="javascript:;"><img src="images/BD01.jpg" /></a>
+					</div>
+					<div class="BD-mid">
+						<div class="BD-wrap">
+							<div class="list">
+								<ul class="c1">
+									<li>
+										<a href="javascript:;"><img src="images/logo_01.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_02.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_03.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_04.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_05.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_06.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_07.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_08.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_09.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_010.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_011.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_012.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_013.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_014.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_015.jpg" /></a>
+									</li>
+								</ul>
+								<ul class="c1">
+									<li>
+										<a href="javascript:;"><img src="images/logo_11.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_12.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_13.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_14.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_15.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_16.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_17.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_18.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_19.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_110.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_111.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_112.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_113.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_114.jpg" /></a>
+									</li>
+									<li>
+										<a href="javascript:;"><img src="images/logo_115.jpg" /></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<span class="bd-prev"></span>
+						<span class="bd-next"></span>
+					</div>
+					<div class="BD right">
+						<a href="javascript:;"><img src="images/BD02.jpg" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+        	作者：846399942@qq.com
+        	时间：2016-10-30
+        	描述：content
+        -->
+		<div class="footer">
+			<div class="ensure">
+				<div class="wrap1190">
+					<dl class="f1">
+						<dt class="zhengpin"></dt>
+						<dd class="fr">
+							<h4>正品保障</h4>
+							<p>厂家直供 正品防伪</p>
+						</dd>
+					</dl>
+					<dl class="f1">
+						<dt class="lingjun"></dt>
+						<dd class="fr">
+							<h4>领军o2o</h4>
+							<p>中国酒类 o2o第一家</p>
+						</dd>
+					</dl>
+					<dl class="f1">
+						<dt class="tuihuo"></dt>
+						<dd class="fr">
+							<h4>无理由退货</h4>
+							<p>拆封无条件退货</p>
+						</dd>
+					</dl>
+					<dl class="f1">
+						<dt class="peisong"></dt>
+						<dd class="fr">
+							<h4>闪电配送</h4>
+							<p>专业配送 安全送达</p>
+						</dd>
+					</dl>
+					<dl class="f1">
+						<dt class="koubei"></dt>
+						<dd class="fr">
+							<h4>百万口碑</h4>
+							<p>400万用户的认可</p>
+						</dd>
+					</dl>
+					<dl class="f1">
+						<dt class="fuwu"></dt>
+						<dd class="fr">
+							<h4>金牌服务</h4>
+							<p>7*12小时贴心服务</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="fservice">
+				<div class="wrap1190 c1">
+					<ul>
+						<li>
+							<a href="javascript:;"><img src="images/zj1.png" /></a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/zj2.png" /></a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/zj3.png" /></a>
+						</li>
+					</ul>
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="javascript:;">购物流程</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">用户注册协议</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">会员积分</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">发票问题</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">优惠券问题</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>配送说明</dt>
+						<dd>
+							<a href="javascript:;">99免运费</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">配送说明</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">快递查询</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">验货与签收</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd>
+							<a href="javascript:;">支付宝</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">银联/信用卡</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">微信支付</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">货到付款</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">账户余额支付</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd>
+							<a href="javascript:;">常见问题</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">服务承诺</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">退款说明</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">退换货政策</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">退换货流程</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>服务保障</dt>
+						<dd>
+							<a href="javascript:;">30分钟快速响应</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">7*12小时贴心服务</a>
+						</dd>
+						<dd>
+							<a href="javascript:;">真品防伪，四码合一</a>
+						</dd>
+					</dl>
+					<dl class="weixin">
+						<dt>手机中酒</dt>
+						<dd>下载移动客户端</dd>
+					</dl>
+					<dl class="web">
+						<dt>中酒微信</dt>
+						<dd>中酒官方微信</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="link">
+				<a href="javascript">关于中酒</a>
+				<a href="javascript">媒体报道 </a>
+				<a href="javascript">商务合作</a>
+				<a href="javascript">品牌入驻</a>
+				<a href="javascript">加入中酒</a>
+				<a href="javascript">商家加盟</a>
+				<a href="javascript">联系我们</a>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2 | 京公网安备 11010502026701 | 购买前请确认达到法定饮酒年龄！中酒网不销售任何含酒精产品给18岁以下人士！</p>
+				<div class="beian">
+					<a href="javascript"><img src="images/beian01.png" /></a>
+					<a href="javascript"><img src="images/beian02.jpg" /></a>
+					<a href="javascript"><img src="images/beian03.png" /></a>
+					<a href="javascript"><img src="images/beian04.png" /></a>
+					<a href="javascript"><img src="images/beian05.png" /></a>
+					<a href="javascript"><img src="images/beian06.png" /></a>
+				</div>
+			</div>
+		</div>
+		<!--右边定位-->
+		<div class="slide-right">
+			<ul class="menu-top">
+				<li class="user">
+					<i></i>
+					<span>个人中心</span>
+				</li>
+				<s></s>
+				<li class="right-cart">
+					<i></i>
+					<p><a href="gouwuche.html">购物车</a></p>
+					<b>0</b>
+				</li>
+				<s></s>
+				<li class="right-asset">
+					<i></i>
+					<span>资产中心</span>
+				</li>
+				<li class="right-goods">
+					<i></i>
+					<span>关注商品</span>
+				</li>
+				<li class="right-history">
+					<i></i>
+					<span>浏览历史</span>
+				</li>
+			</ul>
+			<ul class="menu-bot">
+				<li>
+					<i></i>
+					<span>返回顶部</span>
+				</li>
+			</ul>
+		</div>
+		<!--楼层定位-->
+		<div class="floor-nav">
+			<ul>
+				<li class="active">
+					<a>
+						<em>1F</em>
+						<span>精选</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<em>2F</em>
+						<span>白酒</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<em>3F</em>
+						<span>红酒</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<em>4F</em>
+						<span>洋酒</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>

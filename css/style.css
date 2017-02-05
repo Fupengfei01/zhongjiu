@@ -1,0 +1,96 @@
+.banner{width: 100%;height: 491px;}
+.banner-center{width: 100%;height: 491px;position: relative;}
+.banner-pic{width: 100%;height: 491px;position: relative;}
+.banner-pic a{display: block;width: 100%;height: 491px;position: absolute;opacity: 0;}
+.banner-pic .active{opacity: 1;}
+.banner-pic a img{width: 100%;height: 491px;}
+.banner-center .slide-control{position: absolute;left:50%;bottom: 15px;}
+.slide-control span{display:inline-block;width: 12px;height: 12px;margin: 0 5px;border-radius: 100%;background: #fff;font-size: 0;}
+.slide-control .cur{background:transparent;border: 3px solid #fff;}
+.small-banner{position: absolute;right: 50%;top:0;margin-right: -593px;}
+.small-banner .active:after{content: "";height: 4px;display: block;}
+.small-banner a img{transition:transform 0.2s;}      
+.small-banner a:hover img{transform: translateX(-5px);opacity: 1; }        
+.small-banner img{opacity: 0.9;height: 243px;}
+/*banner.......................................*/
+.content{width: 1188px;margin: 0 auto;}
+.live-show ul li{float: left;margin-top: 20px;}
+/*live-show......................................*/
+.limited-buy{margin-top: 48px;}
+.limited-buy h2{text-align: center;height: 72px;}
+.limited-buy h2 img{display: inline-block;}
+.limited-buy ul li{float: left;margin-right: 7px;}
+.limited-buy ul li:last-child{margin-right: 0;}
+.limited-buy ul li img{width:232px ;height: 232px;}
+.limited-buy li span{display: block;padding-top: 14px;font-size: 12px;color: #303030;line-height: 14px;}
+.limited-buy li span b{color: #f00;padding-left: 8px;font-size: 18px;}
+.limited-buy li .buy-it-now{display: block;height: 22px;width: 228px;border: 1px solid #ff2a3e;
+color:#ff2a3e ;line-height: 22px;text-align: center;margin-top: 20px;position: relative;}
+.limited-buy li .buy-it-now:hover{color: #fff;}
+.limited-buy li .buy-it-now b{content:'';display: block; width:6px;height: 100%;background: #f00;position: absolute;top: 0;left: 0;z-index: -1;}
+.content_recont{overflow: hidden;margin-bottom: 30px;}
+.content_recont h3{line-height: 38px;font-size: 18px;padding-left: 10px;color: #3d4048;margin: 15px 0 0 0;}
+.content_recont ul{width: 1206px;}
+.content_recont ul li{float: left;height: 220px;margin: 10px 10px 0 0;}
+.content_recont ul li:hover a img{transform: translateX(-3px);}
+.content_recont ul li a img{transition:transform 0.2s;}
+.floor{margin-bottom: 30px;}
+.floor-hd{height: 32px;border-bottom: 1px solid #c9c9c9;margin-bottom: 4px;}
+.floor-hd h3{line-height: 18px;font-size: 16px;padding-left: 12px;border-left:4px solid #f00;float: left;}
+.floor-hd ul{float: right;margin-right: 20px;line-height: 32px;font-size:16px ;}
+.floor-hd ul li{float: left;padding-left: 50px;}
+.floor-hd ul li a{color: #2c2c2c;}
+.floor-hd ul .active a{color:#e3393c;}
+.floor-bd{overflow: hidden;}
+.floor-bd .floor-content1{width: 1200px;}
+.floor-bd .floor-content1 .content-left{float: left;width: 230px;height: 450px;position: relative;}
+.content-left .cata-flo{position: absolute;bottom: 185px ;left: 0;width: 230px;height: 124px;}
+.cata-flo ul{width: 186px;margin: 26px auto;overflow: hidden;}
+.cata-flo ul span{float: left;width: 90px;line-height: 24px;}
+.cata-flo ul span a{color: #292929;}
+.content-left .brand-A{position: absolute;bottom: 0;left: 0;width: 230px;height: 171px;}
+.content-left .brand-A ul{width:186px;height:142px; margin: 0 auto;}
+.content-left .brand-A ul li{float: left;width: 90px; margin-bottom: 6px;}
+.floor-bd .floor-content1 .content-right{width: 960px;height: 450px;float: right;position: relative;}
+.content-right .rigth-img{position: absolute;}
+.content-right .rigth-img li{float: left;margin:0 10px 10px 0;}
+.content-right .rigth-tab{display:none;position: absolute;}
+.content-right .rigth-tab li{width: 160px;height: 205px;padding: 10px 15px;border-bottom: 1px solid #f3f3f3;border-right: 1px solid #f3f3f3;float: left;}
+.content-right .rigth-tab li img{width: 160px;height: 160px;}
+.floor-bd .floor-content2{width: 1205px;}
+.floor-bd .floor-content2 ul li{float: left;margin:10px 10px 0 0;}
+/*floors.............................*/
+.brandshop h3{padding-bottom: 15px;font-size: 18px;layout-grid-char: 18px;color: #3d4048;font-weight: normal;}
+.BD-content{height: 380px;width: 1188px;}
+.BD-content .BD-left{float: left;}
+.BD-content .BD-mid{width: 550px;height: 305px;float: left;padding: 20px 38px;position: relative;border-top: 2px solid #f3f3f3;border-bottom: 2px solid #f3f3f3;}
+.BD-mid .BD-wrap{overflow: hidden;position: relative;}
+.BD-mid .list{width: 1100px;}
+.BD-mid .list ul{float: left;width: 550px;}
+.BD-mid .list ul li{float: left;width: 110px;height: 110px;}
+.BD-mid .list ul li a{display: block;width:110px ;height: 62px;margin-top: 20px;background: url(../images/brand_03.png) no-repeat right center;}
+.BD-mid .list ul li:nth-child(5n) a{background: none;}
+.BD-mid .list ul li a img{margin: 6px auto;}
+.BD-mid .bd-prev{width: 26px;height: 38px;background: url(../images/prev.png) no-repeat -4px 0;position: absolute;top: 50%;left: 7px;margin-top: -13px;}
+.BD-mid .bd-next{width: 26px;height: 38px;background: url(../images/prev.png) no-repeat -4px -40px;position: absolute;top: 50%;right: 7px;margin-top: -13px}
+.BD-content .BD-right{float: left;}
+/*content.....................*/
+.ensure{width: 100%;height: 108px;background: #f8f8f8;border-bottom: 1px solid #d6d6d6;}
+.ensure .wrap1190{width: 1200px;margin: 0 auto;padding-top: 33px;}
+.ensure .wrap1190 dl{float: left;padding-right: 36px;}
+.ensure .wrap1190 dt{width: 55px;height: 40px;float: left;}
+.zhengpin{background: url(../images/icon.png) no-repeat 0 -37px;}
+.lingjun{background: url(../images/icon.png) no-repeat -57px -37px;}
+.tuihuo{background: url(../images/icon.png) no-repeat -125px -37px;}
+.peisong{background: url(../images/icon.png) no-repeat -181px -37px;}
+.koubei{background: url(../images/icon.png) no-repeat -241px -37px;}
+.fuwu{background: url(../images/icon.png) no-repeat -301px -37px;}
+
+.floor-nav{position: fixed;top: 50%;left: 20px;width: 37px;display: none;}
+.floor-nav a{width: 19px;height: 30px;line-height: 30px;text-align: center;display: block;margin: 0 auto;border-bottom: 1px dotted #c9c9c9;color: #625352;cursor: pointer;}
+.floor-nav a em{font-style: normal;font-size: 14px;}
+.floor-nav a span{display: none;}
+.floor-nav li:hover{background: #e3393c;}
+.floor-nav li:hover a{width: 28px;}
+.floor-nav li:hover span{display: block;color: #fff;}
+.floor-nav li:hover em{display: none;}
