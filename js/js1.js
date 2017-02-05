@@ -20,8 +20,13 @@ $(function(){
 	}
 });
 $(function(){
-	$.post("json.json",function(response){
-		fn1(response);
+	$.ajax({
+		type:"get",
+		url:"json.json",
+		async:true,
+		success:function(response){
+			fn1(response);
+		}
 	});
 	function fn1(obj){
 		var createul=$("<ul/>");
@@ -76,8 +81,13 @@ $(function(){
 });
 $(function(){
 	var $floors=$(".floors");
-	$.post("floor.json",function(response){
-		fn1(response);
+	$.ajax({
+		type:"get",
+		url:"floor.json",
+		async:true,
+		success:function(response){
+			fn1(response);
+		}
 	});
 	function fn1(obj){
 		for(var key in obj){
